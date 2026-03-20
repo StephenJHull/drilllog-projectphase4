@@ -7,10 +7,10 @@
 	[Spacing] DECIMAL NOT NULL,
 	[FaceHeight] DECIMAL NOT NULL,
 	[SubDrill] DECIMAL NOT NULL,
-	[ShotType] NCHAR(50) NOT NULL DEFAULT Production,
+	[ShotType] NCHAR(50) NOT NULL,
 	[NoHoles] INT NOT NULL,
-	[DesignDate] DATETIME NULL,
-	[ShotDate] DATETIME NULL,
+	[DesignDate] DATETIME2 NULL,
+	[ShotDate] DATETIME2 NULL,
 	[BlasterSSN] INT NOT NULL,
 	[ShotId] INT NOT NULL,
 )

@@ -1,9 +1,9 @@
 ﻿CREATE TABLE [dbo].[DrillLog]
 (
-	[ShotId] INT NOT NULL PRIMARY KEY,
-	[TimeBegan] TIMESTAMP NOT NULL,
-	[TimeLastSaved] TIMESTAMP NULL,
-	[TimeSubmitted] TIMESTAMP NULL, 
+	[ShotID] INT NOT NULL PRIMARY KEY,
+	[TimeBegan] DATETIME2 NOT NULL,
+	[TimeLastSaved] DATETIME2 NULL,
+	[TimeSubmitted] DATETIME2 NULL, 
     [DrillerSSN] INT NOT NULL, 
     [QuarryName] NCHAR(100) NOT NULL,
 )

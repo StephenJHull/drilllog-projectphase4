@@ -11,8 +11,8 @@
     [TotalDepth] DECIMAL NOT NULL, 
     [WaterDepth] INT NULL, 
     [Notes] NCHAR(500) NULL, 
-    [StartTime] TIMESTAMP NOT NULL, 
-    [EndTime] TIMESTAMP NOT NULL, 
+    [StartTime] DATETIME2 NOT NULL, 
+    [EndTime] DATETIME2 NOT NULL, 
     [MachineID] INT NOT NULL, 
     [ShotID] INT NOT NULL
 )

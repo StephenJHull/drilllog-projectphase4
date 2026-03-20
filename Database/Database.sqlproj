@@ -57,6 +57,7 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Tables\ForeignKeys" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Drill.sql" />
@@ -66,11 +67,15 @@
     <Build Include="Tables\DrillPattern.sql" />
     <Build Include="Tables\Employee.sql" />
     <Build Include="Tables\Drilling.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="Database.refactorlog" />
+    <Build Include="Tables\ForeignKeys\FK_DrillLog_Quarry.sql" />
+    <Build Include="Tables\ForeignKeys\FK_DrillLog_Employee.sql" />
+    <Build Include="Tables\ForeignKeys\FK_DrillHole_DrillLog.sql" />
+    <Build Include="Tables\ForeignKeys\FK_DrillHole_Drill.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Database.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Database.refactorlog" />
   </ItemGroup>
 </Project>
