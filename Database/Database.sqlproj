@@ -71,6 +71,15 @@
     <Build Include="Tables\ForeignKeys\FK_DrillLog_Employee.sql" />
     <Build Include="Tables\ForeignKeys\FK_DrillHole_DrillLog.sql" />
     <Build Include="Tables\ForeignKeys\FK_DrillHole_Drill.sql" />
+    <Build Include="Tables\DrillType.sql" />
+    <Build Include="Tables\ForeignKeys\FK_Drill_DrillType.sql" />
+    <Build Include="Tables\ForeignKeys\FK_Drilling_Drill.sql" />
+    <Build Include="Tables\ForeignKeys\FK_Drilling_Employee.sql" />
+    <Build Include="Tables\EmployeeRole.sql" />
+    <Build Include="Tables\ForeignKeys\FK_Employee_Employee.sql" />
+    <Build Include="Tables\ForeignKeys\FK_Employee_EmployeeRole.sql" />
+    <Build Include="Tables\ForeignKeys\FK_DrillPattern_Employee.sql" />
+    <Build Include="Tables\ForeignKeys\FK_DrillPattern_DrillLog.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Database.publish.xml" />

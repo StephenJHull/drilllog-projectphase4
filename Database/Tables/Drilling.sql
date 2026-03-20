@@ -1,8 +1,8 @@
 ﻿CREATE TABLE [dbo].[Drilling]
 (
-	[SSN] INT NOT NULL , 
-    [MachineId] INT NOT NULL, 
+	[DrillingInstanceNo] INT NOT NULL PRIMARY KEY,
+    [SSN] INT NOT NULL , 
+    [MachineID] INT NOT NULL, 
     [Date] DATETIME2 NOT NULL, 
-    [Duration] DECIMAL NOT NULL, 
-    PRIMARY KEY ([SSN])
+    [Duration] DECIMAL NOT NULL,
 )
