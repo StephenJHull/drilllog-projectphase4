@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[DrillHole]
+CREATE TABLE [dbo].[DrillHole]
 (
 	[HoleId] INT NOT NULL PRIMARY KEY, 
     [HoleNo] INT NOT NULL, 
