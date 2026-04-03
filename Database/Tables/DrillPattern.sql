@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[DrillPattern]
+CREATE TABLE [dbo].[DrillPattern]
 (
 	[PatternId] INT NOT NULL PRIMARY KEY,
 	[ShotNo] INT NOT NULL,
@@ -12,5 +12,5 @@
 	[DesignDate] DATETIME2 NULL,
 	[ShotDate] DATETIME2 NULL,
 	[BlasterSSN] INT NOT NULL,
-	[ShotID] INT NOT NULL,
+	[ShotId] INT NOT NULL
 )

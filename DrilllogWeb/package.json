@@ -1,0 +1,15 @@
+{
+  "name": "drilllog-web",
+  "version": "1.0.0",
+  "description": "Minimal web app for SQL Server connection verification",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mssql": "^12.2.1"
+  }
+}
